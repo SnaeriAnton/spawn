@@ -20,7 +20,7 @@ public class CreateEnemies : MonoBehaviour
         StartCoroutine(Create());
     }
 
-    IEnumerator Create()
+    private IEnumerator Create()
     {
         while (_spawnEnemies)
         {
