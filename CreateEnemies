@@ -5,7 +5,7 @@ using UnityEngine;
 public class CreateEnemies : MonoBehaviour
 {
     [SerializeField] private Transform _spawnPosition;
-    [SerializeField] GameObject _enemy;
+    [SerializeField] private GameObject _enemy;
 
     private Transform[] _spawns;
     private bool _spawnEnemies = true;
